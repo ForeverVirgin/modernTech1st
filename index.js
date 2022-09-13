@@ -11,4 +11,4 @@ minutes=Math.floor(timeInMs/(60000))
 timeInMs = timeInMs-minutes*60000
 sec=Math.floor(timeInMs/(1000))
 timeInMs = timeInMs-sec*1000
-console.log("До нового года осталось " + weeks + " недель, " + days +" дней, " + hours +" часов, " + minutes +" минут, " + sec +" секунд, " + timeInMs +" миллисекунд, ")
+console.log("До нового года осталось " + weeks + " недель, " + days +" дней, " + hours +" часов, " + minutes +" минут, " + sec +" секунд, " + timeInMs +" миллисекунд.")
